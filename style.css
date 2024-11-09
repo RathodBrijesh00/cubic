@@ -1,0 +1,609 @@
+@font-face {
+    font-family: quinoa;
+    src: url(Fontspring-DEMO-quinoa-semibold.otf);
+}
+@font-face {
+    font-family: Raleway;
+    src: url(Raleway-Bold.ttf);
+}
+@font-face {
+    font-family: Raleway-Light;
+    src: url(Raleway-Light.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainheight{
+
+    min-height: 100vh !important;
+}
+.fourthheight{
+
+    min-height: 60vh;
+}
+.nav-link {
+
+    color: rgb(225, 225, 225) !important;
+}
+.nav-link:hover {
+
+    color: orangered !important;
+}
+.navbar {
+    background-color: rgba(255, 255, 255, 0) !important;
+    /* border: 2px solid red !important; */
+}
+.container-fluid {
+
+    background-color: rgba(255, 255, 255, 0) !important;
+}
+.carousel {
+
+    width: 100% !important;
+    height: 100% !important;
+}
+.bg-image{
+
+    width: 100% !important;
+    height: 742px !important;
+    background: url(slider-bg3.jpg);
+    background-size: cover !important;
+    z-index: 1111 !important;
+}
+.text-first {
+
+    width: 100% !important;
+    min-height: 665px !important;
+    gap: 30px !important;
+}
+.text-second {
+
+    width: 100% !important;
+    min-height: 200px !important;
+    gap: 30px !important;
+    position: relative;
+}
+.h1-1{
+    
+    font-size: 80px;
+    font-weight: lighter;
+    letter-spacing: 5px;
+}
+.btn {
+    border-radius: 0 !important;
+}
+.btn i {
+
+    color: orangered;
+}
+.card-1 img {
+
+    width: 100px !important;
+    /* gap: 10px !important; */
+}
+.cardheight {
+
+    min-height: 300px !important;
+}
+.cardconheight{
+
+    min-height: 70% !important;
+    /* border: 2px solid red; */
+}
+.hover-one{
+
+
+    height: 100% !important;
+    width: 100% !important;
+    /* border: 2px solid red !important; */
+    position: absolute !important;
+    background-color: orange;
+    bottom: -99% !important;
+    transition: .4s all linear;
+}
+.card-1:hover .hover-one{
+
+    bottom: 0 !important;
+    transition: .4s all linear;
+}
+.card-con {
+
+    gap: 10px !important;
+    overflow: hidden !important;
+}
+.fifth-con {
+
+    overflow: hidden !important;
+}
+.container-fluid {
+
+    overflow: hidden !important;
+}
+.card-1 {
+
+    position: relative !important;
+    overflow: hidden !important;
+    /* gap: 5px !important; */
+}
+.hover-one i {
+
+
+    color: white !important;
+}
+.hover-one button:hover i {
+
+
+    color: black !important;
+}
+.image-third{
+
+
+    width: 100% !important;
+    height: 100% !important;
+    background: url(bg-side-1.jpg);
+    background-size: cover;
+}
+.bg-fourth {
+
+    width: 100% !important;
+    height: 100% !important;
+    /* background: url(rear-view-large-group-music-fans-front-stage-during-music-concert-by-night-copy-space.jpg); */
+}
+.image-gray {
+
+    width: 100% !important;
+    height: 100% !important;
+    background-color: rgba(0, 0, 0, 0.596);
+    z-index: 1111 !important;
+}
+.cardheight2{
+
+    min-height: 200px !important;
+}
+.card-1-fifth {
+
+    position: relative !important;
+    /* width: 300px !important; */
+    overflow: hidden !important;
+    /* gap: 5px !important; */
+}
+.card-1-fifth img {
+
+    width: 100% !important;
+    transition: .4s all linear;
+}
+.card-1-fifth:hover .hover-two {
+
+
+    bottom: 0 !important;
+    transition: .4s all linear;
+}
+.hover-two{
+
+
+    height: 100% !important;
+    width: 100% !important;
+    /* border: 2px solid red !important; */
+    position: absolute !important;
+    background-color: #111a1c;
+    bottom: -100% !important;
+    transition: .4s all linear;
+}
+.card-1-fifth:hover .hover-two{
+
+    bottom: 0 !important;
+    transition: .4s all linear;
+}
+.icons-fifth {
+
+    color: white !important;
+    gap: 5px;
+    transition: .2s all linear;
+    margin-left: -10px;
+}
+.icons-fifth i:hover {
+
+    color: orange !important;
+    transition: .2s all linear;
+    gap: 5px;
+}
+
+.card-1-fifth:hover img {
+    scale: 1.1;
+    transition: .4s all linear;
+}
+.sixth-card{
+
+    z-index: 111 !important;
+}
+.bi-alarm {
+    
+    font-size: 80px;
+}
+.bi-journal-text {
+    
+    font-size: 80px;
+}
+.fa-mug-hot{
+    
+    font-size: 80px;
+}
+.fa-pizza-slice {
+    
+    font-size: 80px;
+}
+.bi-alarm {
+    
+    font-size: 80px;
+}
+.h1-6{
+
+    font-size: 60px;
+    font-weight: bold;
+    font-family: Raleway;
+}
+.bg-sixth{
+    width: 100% !important;
+    height: 100% !important;
+    background: url(pxfuel.com.jpg);
+    background-size: cover;
+    /* filter: grayscale(1); */
+}
+.sixthcard{
+    /* border: 5px solid red; */
+    color: orange !important;
+}
+.sixthcard:hover i {
+
+    color: white !important;
+    transition: all .3s linear;
+}
+.sixthcard:hover h2 {
+
+    color: white !important;
+    transition: all .3s linear;
+}
+.filter-sixth {
+
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.687);
+    filter: blur(.3);
+
+}
+.text-sixth {
+
+    z-index: 111111 !important;
+}
+.cardheight7{
+
+    height: 250px !important;
+}
+.cc{
+
+    color: orange;
+    transition: all .4s linear;
+
+}
+.cc:hover {
+
+    color: gray;
+    transition: all .4s linear;
+}
+.sev-img{
+
+    min-height: 50vh !important;
+}
+.eightheight{
+
+    min-height: 50vh !important;
+}
+.bg-eight{
+
+    /* width: 100%; */
+    /* position: absolute; */
+    background: url(sergey-zolkin-_UeY8aTI6d0-unsplash.jpg);
+    background-size: cover;
+    background-position: 100%;
+}
+.me {
+
+    width: 95% !important;
+    height: 4px;
+    border-radius: 30px;
+    background-color: rgba(128, 128, 128, 0.562) !important;
+}
+.mera {
+
+    width: 80% !important;
+    height: 4px;
+    border-radius: 30px;
+    background-color: orange !important;
+    z-index: 1111 !important;
+}
+.me-2 {
+
+    width: 95% !important;
+    height: 4px;
+    border-radius: 30px;
+    background-color: rgba(128, 128, 128, 0.562) !important;
+}
+.mera-2 {
+
+    width: 70% !important;
+    height: 4px;
+    border-radius: 30px;
+    background-color: orange !important;
+    z-index: 1111 !important;
+}
+.me-3 {
+
+    width: 95% !important;
+    height: 4px;
+    border-radius: 30px;
+    background-color: rgba(128, 128, 128, 0.562) !important;
+}
+.mera-3 {
+
+    width: 65% !important;
+    height: 4px;
+    border-radius: 30px;
+    background-color: orange !important;
+    z-index: 1111 !important;
+}
+.me-4 {
+
+    width: 95% !important;
+    height: 4px;
+    border-radius: 30px;
+    background-color: rgba(128, 128, 128, 0.562) !important;
+}
+.mera-4 {
+
+    width: 90% !important;
+    height: 4px;
+    border-radius: 30px;
+    background-color: orange !important;
+    z-index: 1111 !important;
+}
+.me-5 {
+
+    width: 95% !important;
+    height: 4px;
+    border-radius: 30px;
+    background-color: rgba(128, 128, 128, 0.562) !important;
+}
+.mera-5 {
+
+    width: 60% !important;
+    height: 4px;
+    border-radius: 30px;
+    background-color: orange !important;
+    z-index: 1111 !important;
+}
+.me-6 {
+
+    width: 95% !important;
+    height: 4px;
+    border-radius: 30px;
+    background-color: rgba(128, 128, 128, 0.562) !important;
+}
+.mera-6 {
+
+    width: 85% !important;
+    height: 4px;
+    border-radius: 30px;
+    background-color: orange !important;
+    z-index: 1111 !important;
+}
+.text-ninth li {
+
+    list-style: none;
+    z-index: 1 !important;
+}
+.text-ninth a {
+
+    text-decoration: none;
+    font-family: quinoa;
+    font-weight: bolder;
+    color: gray;
+}
+.ninth-li {
+
+    width: 100px;
+    background-color: rgba(128, 128, 128, 0);
+    transition: .3s all linear;
+}
+.ninth-li:hover{
+
+    background-color: rgba(128, 128, 128, 0.438);
+    transition: .3s all linear;
+}
+.ninth-card{
+
+    height: 380px;
+}
+.work-1{
+    background: url(pf\ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
+}
+.work-2{
+    background: url(pf\ \(2\).jpg);
+    background-size: cover;
+    background-position: center;
+}
+.work-3{
+    background: url(pf\ \(3\).jpg);
+    background-size: cover;
+    background-position: center;
+}
+.work-4{
+    background: url(pf\ \(4\).jpg);
+    background-size: cover;
+    background-position: center;
+}
+.work-5{
+    background: url(pf\ \(5\).jpg);
+    background-size: cover;
+    background-position: center;
+}
+.work-6{
+    background: url(pf\ \(6\).jpg);
+    background-size: cover;
+    background-position: center;
+}
+.ninth-icon{
+    color: white;
+    background-color: transparent;
+    transition: .3s all linear;
+    border: 1px solid white;
+}
+.ninth-icon:hover{
+    color: black;
+    background-color: white;
+    transition: .3s all linear;
+}
+.work-1-exp{
+    width: 100%;
+    height: 100%;
+    background-color: orange !important;
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    transition: .4s all linear;
+}
+.work-1-exp:hover {
+    opacity: 1;
+    transition: .4s all linear;
+}
+.scrolling-image {
+    height: 100% !important;
+    width: 7680px !important;
+    background: url("bg-2.jpg") top fixed;
+    background-position: -2000px 0px;
+    position: absolute !important;
+    animation: slide 55s linear infinite;
+  }
+  
+@keyframes slide {
+    0% {
+      transform: translate(0);
+    }
+    100% {
+      transform: translate(-3840px); /* The image width */
+    }
+  }
+@keyframes growth {
+    
+    0%{
+        transform: translateX(-500px);
+        opacity: 0;
+    }
+    100%{
+
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.mera{
+
+    animation: growth 2s linear 1;
+
+}
+.mera-2{
+
+    animation: growth 2s linear 1;
+
+}
+.mera-3{
+
+    animation: growth 2s linear 1;
+
+}
+.mera-4{
+
+    animation: growth 2s linear 1;
+
+}
+.mera-5{
+
+    animation: growth 2s linear 1;
+
+}
+.mera-6{
+
+    animation: growth 2s linear 1;
+
+}
+
+.Design{
+
+    overflow: hidden;
+
+}
+.text-tenth {
+
+    min-height: 150px !important;
+}
+.border{
+
+    border: 2px solid seagreen;
+}
+.testiheight{
+
+    min-height: 60vh;
+}
+.blog-height {
+
+    height: 450px;
+}
+.blog-up {
+
+    height: 200px;
+}
+.upper-img {
+
+    background: url(pic-blog-1.jpg);
+    background-size: cover;
+    background-position: top;
+}
+.upper-img2 {
+
+    background: url(pic-blog-2.jpg);
+    background-size: cover;
+    background-position: top;
+}
+.upper-img3 {
+
+    background: url(pic-blog-3.jpg);
+    background-size: cover;
+    background-position: top;
+}
+.below-height{
+    height: 250px;
+}
+.opacity{
+
+
+    opacity: 1;
+    transition: .3s all linear;
+
+}
+.opacity:hover{
+
+
+    opacity: .5;
+    transition: .3s all linear;
+}
+.bg-thirteen {
+    width: 100% !important;
+    height: 100% !important;
+    background: url(sergey-zolkin-_UeY8aTI6d0-unsplash.jpg);   
+    background-size: cover; 
+}
+
+
